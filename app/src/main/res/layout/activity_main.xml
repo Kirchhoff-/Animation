@@ -18,5 +18,12 @@
         android:text="@string/ticker.library"/>
 
 
+    <Button
+        android:id="@+id/interpolators"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/interpolators"/>
+
+
 
 </LinearLayout>

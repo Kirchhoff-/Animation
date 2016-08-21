@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tabs>
+    <tab
+        id="@+id/tab_favorite"
+        icon="@drawable/ic_favorite"
+        title="Favorite"
+        barColorWhenSelected="@color/yellow"/>
+    <tab
+        id="@+id/tab_settings"
+        icon="@drawable/ic_settings"
+        title="Settings"
+        barColorWhenSelected = "@color/blue"/>
+    <tab
+        id="@+id/tab_euro"
+        icon="@drawable/ic_euro"
+        title="Euro"
+        barColorWhenSelected = "@color/green"/>
+</tabs>

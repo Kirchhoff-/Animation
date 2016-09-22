@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.bottombar.BottomBarActivity;
+import com.kirchhoff.animation.easysplash.EasySplashActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
 
@@ -27,12 +28,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button interpolators = (Button) findViewById(R.id.interpolators);
         Button bottomBar = (Button) findViewById(R.id.bottomBar);
         Button awesomeSplash = (Button) findViewById(R.id.awesomeSplash);
+        Button easySplash = (Button) findViewById(R.id.easySplash);
 
 
         ticker.setOnClickListener(this);
         interpolators.setOnClickListener(this);
         bottomBar.setOnClickListener(this);
         awesomeSplash.setOnClickListener(this);
+        easySplash.setOnClickListener(this);
     }
 
     @Override
@@ -83,6 +86,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.awesomeSplash:
                 intent = new Intent(this, AwesomeSplashActivity.class);
+                startActivity(intent);
+                break;
+
+            /**
+             *  Library for crating splash screen
+             *
+             *  https://github.com/pantrif/EasySplashScreen
+             */
+            case R.id.easySplash:
+                intent = new Intent(this, EasySplashActivity.class);
                 startActivity(intent);
                 break;
 

@@ -32,6 +32,11 @@
         <activity android:name=".awesomesplash.AwesomeSplashActivity">
 
         </activity>
+
+        <activity android:name=".easysplash.EasySplashActivity">
+
+        </activity>
+
     </application>
 
 </manifest>

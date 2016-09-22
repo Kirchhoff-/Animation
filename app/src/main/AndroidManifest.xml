@@ -28,6 +28,10 @@
         <activity android:name=".bottombar.BottomBarActivity">
 
         </activity>
+
+        <activity android:name=".awesomesplash.AwesomeSplashActivity">
+
+        </activity>
     </application>
 
 </manifest>

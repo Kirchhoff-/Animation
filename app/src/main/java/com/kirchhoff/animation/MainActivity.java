@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.bottombar.BottomBarActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
@@ -25,11 +26,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button ticker = (Button) findViewById(R.id.ticker);
         Button interpolators = (Button) findViewById(R.id.interpolators);
         Button bottomBar = (Button) findViewById(R.id.bottomBar);
+        Button awesomeSplash = (Button) findViewById(R.id.awesomeSplash);
 
 
         ticker.setOnClickListener(this);
         interpolators.setOnClickListener(this);
         bottomBar.setOnClickListener(this);
+        awesomeSplash.setOnClickListener(this);
     }
 
     @Override
@@ -68,6 +71,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
              */
             case R.id.bottomBar:
                 intent = new Intent(this, BottomBarActivity.class);
+                startActivity(intent);
+                break;
+
+
+            /**
+             *  Library for creating splash screen
+             *
+             *  https://github.com/Kirchhoff-/Animation
+             */
+
+            case R.id.awesomeSplash:
+                intent = new Intent(this, AwesomeSplashActivity.class);
                 startActivity(intent);
                 break;
 

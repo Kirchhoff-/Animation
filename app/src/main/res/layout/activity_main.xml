@@ -32,5 +32,13 @@
         android:text="@string/bottom_bar"/>
 
 
+    <Button
+        android:id="@+id/awesomeSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/awesome_splash"
+        />
+
+
 
 </LinearLayout>

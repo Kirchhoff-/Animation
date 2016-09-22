@@ -47,5 +47,12 @@
         android:text="@string/easy_splash"/>
 
 
+    <Button
+        android:id="@+id/particleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/particle_view"/>
+
+
 
 </LinearLayout>

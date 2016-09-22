@@ -10,6 +10,7 @@ import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.bottombar.BottomBarActivity;
 import com.kirchhoff.animation.easysplash.EasySplashActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
+import com.kirchhoff.animation.particle.ParticleActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
 
 /**
@@ -29,13 +30,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button bottomBar = (Button) findViewById(R.id.bottomBar);
         Button awesomeSplash = (Button) findViewById(R.id.awesomeSplash);
         Button easySplash = (Button) findViewById(R.id.easySplash);
-
+        Button particleView = (Button)findViewById(R.id.particleView);
 
         ticker.setOnClickListener(this);
         interpolators.setOnClickListener(this);
         bottomBar.setOnClickListener(this);
         awesomeSplash.setOnClickListener(this);
         easySplash.setOnClickListener(this);
+        particleView.setOnClickListener(this);
     }
 
     @Override
@@ -81,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             /**
              *  Library for creating splash screen
              *
-             *  https://github.com/Kirchhoff-/Animation
+             *  https://github.com/ViksaaSkool/AwesomeSplash
              */
 
             case R.id.awesomeSplash:
@@ -96,6 +98,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
              */
             case R.id.easySplash:
                 intent = new Intent(this, EasySplashActivity.class);
+                startActivity(intent);
+                break;
+
+
+            /**
+             *  Library for creating Particle view(view with interesting animation)
+             *
+             *  https://github.com/JeasonWong/Particle
+             */
+            case R.id.particleView:
+                intent = new Intent(this, ParticleActivity.class);
                 startActivity(intent);
                 break;
 

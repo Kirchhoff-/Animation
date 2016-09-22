@@ -37,6 +37,10 @@
 
         </activity>
 
+        <activity android:name=".particle.ParticleActivity">
+
+        </activity>
+
     </application>
 
 </manifest>

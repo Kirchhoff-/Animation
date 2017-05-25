@@ -10,6 +10,7 @@ import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.bottombar.BottomBarActivity;
 import com.kirchhoff.animation.easysplash.EasySplashActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
+import com.kirchhoff.animation.jellytoolbar.JellyToolbarActivity;
 import com.kirchhoff.animation.particle.ParticleActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
 
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         awesomeSplash.setOnClickListener(this);
         easySplash.setOnClickListener(this);
         particleView.setOnClickListener(this);
+        findViewById(R.id.jellyToolbar).setOnClickListener(this);
     }
 
     @Override
@@ -109,6 +111,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
              */
             case R.id.particleView:
                 intent = new Intent(this, ParticleActivity.class);
+                startActivity(intent);
+                break;
+
+
+            case R.id.jellyToolbar:
+                intent = new Intent(this, JellyToolbarActivity.class);
                 startActivity(intent);
                 break;
 

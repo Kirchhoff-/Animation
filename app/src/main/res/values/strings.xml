@@ -8,6 +8,8 @@
     <string name = "particle_view">Particle View</string>
 
 
+    <string name="jelly_toolbar">Jelly toolbar</string>
+    <string name="jelly_toolbar_hint">Jelly Hint</string>
 
 
     <string-array name="interpolators">

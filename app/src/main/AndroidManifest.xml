@@ -17,29 +17,20 @@
         </activity>
 
 
-        <activity android:name=".ticker.TickerActivity">
+        <activity android:name=".ticker.TickerActivity"/>
 
-        </activity>
+        <activity android:name=".interpolators.InterpolatorActivity"/>
 
-        <activity android:name=".interpolators.InterpolatorActivity">
+        <activity android:name=".bottombar.BottomBarActivity"/>
 
-        </activity>
+        <activity android:name=".awesomesplash.AwesomeSplashActivity"/>
 
-        <activity android:name=".bottombar.BottomBarActivity">
+        <activity android:name=".easysplash.EasySplashActivity"/>
 
-        </activity>
+        <activity android:name=".particle.ParticleActivity"/>
 
-        <activity android:name=".awesomesplash.AwesomeSplashActivity">
-
-        </activity>
-
-        <activity android:name=".easysplash.EasySplashActivity">
-
-        </activity>
-
-        <activity android:name=".particle.ParticleActivity">
-
-        </activity>
+        <activity android:name=".jellytoolbar.JellyToolbarActivity"
+            android:theme="@style/AppTheme.NoToolbar"/>
 
     </application>
 

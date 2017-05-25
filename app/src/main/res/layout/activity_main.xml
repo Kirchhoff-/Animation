@@ -10,13 +10,11 @@
     android:orientation="vertical"
     tools:context="com.kirchhoff.animation.MainActivity">
 
-
     <Button
         android:id="@+id/ticker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ticker.library"/>
-
 
     <Button
         android:id="@+id/interpolators"
@@ -24,20 +22,17 @@
         android:layout_height="wrap_content"
         android:text="@string/interpolators"/>
 
-
     <Button
         android:id="@+id/bottomBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bottom_bar"/>
 
-
     <Button
         android:id="@+id/awesomeSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/awesome_splash"
-        />
+        android:text="@string/awesome_splash" />
 
 
     <Button
@@ -46,12 +41,17 @@
         android:layout_height="wrap_content"
         android:text="@string/easy_splash"/>
 
-
     <Button
         android:id="@+id/particleView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/particle_view"/>
+
+    <Button
+        android:id="@+id/jellyToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jelly_toolbar"/>
 
 
 

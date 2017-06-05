@@ -32,6 +32,9 @@
         <activity android:name=".jellytoolbar.JellyToolbarActivity"
             android:theme="@style/AppTheme.NoToolbar"/>
 
+        <activity android:name=".alerter.AlerterActivity"
+            android:label="@string/alerter"/>
+
     </application>
 
 </manifest>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alerter.AlerterActivity">
+
+
+    <Button
+        android:id="@+id/bSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerter.simple"
+        android:onClick="alerterSimple"/>
+
+    <Button
+        android:id="@+id/bBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerter.background"
+        android:onClick="alerterBackground"/>
+
+    <Button
+        android:id="@+id/bIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerter.icon"
+        android:onClick="alerterIcon"/>
+
+    <Button
+        android:id="@+id/bDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerter.duration"
+        android:onClick="alerterDuration"/>
+
+    <Button
+        android:id="@+id/bTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerter.title"
+        android:onClick="alerterTitle"/>
+
+    <Button
+        android:id="@+id/bOnClickListener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerter.onclicklistener"
+        android:onClick="alerterOnClickListener"/>
+
+    <Button
+        android:id="@+id/bVerboseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerter.verbose.text"
+        android:onClick="alerterVerboseText"/>
+
+    <Button
+        android:id="@+id/bAlertVisibilityCallback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerter.visibility.callback"
+        android:onClick="alerterVisibilityCallback"/>
+
+</LinearLayout>

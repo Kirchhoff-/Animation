@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.kirchhoff.animation.alerter.AlerterActivity;
 import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.bottombar.BottomBarActivity;
 import com.kirchhoff.animation.easysplash.EasySplashActivity;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         easySplash.setOnClickListener(this);
         particleView.setOnClickListener(this);
         findViewById(R.id.jellyToolbar).setOnClickListener(this);
+        findViewById(R.id.alerter).setOnClickListener(this);
     }
 
     @Override
@@ -120,6 +122,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
 
+
+            /**
+             * https://github.com/Tapadoo/Alerter
+             */
+            case R.id.alerter:
+                AlerterActivity.start(MainActivity.this);
+                break;
         }
     }
 }

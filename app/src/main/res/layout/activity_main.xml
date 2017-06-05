@@ -54,5 +54,10 @@
         android:text="@string/jelly_toolbar"/>
 
 
+    <Button
+        android:id="@+id/alerter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerter"/>
 
 </LinearLayout>

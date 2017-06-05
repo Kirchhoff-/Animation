@@ -1,6 +1,8 @@
 package com.kirchhoff.animation.particle;
 
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +13,11 @@ import me.wangyuwei.particleview.ParticleView;
 
 public class ParticleActivity extends AppCompatActivity {
 
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, ParticleActivity.class);
+        context.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

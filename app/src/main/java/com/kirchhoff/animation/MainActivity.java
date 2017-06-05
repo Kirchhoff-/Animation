@@ -1,10 +1,8 @@
 package com.kirchhoff.animation;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 
 import com.kirchhoff.animation.alerter.AlerterActivity;
 import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
@@ -18,117 +16,82 @@ import com.kirchhoff.animation.ticker.TickerActivity;
 /**
  * @author Kirchhoff-
  */
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-    private Intent intent;
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Button ticker = (Button) findViewById(R.id.ticker);
-        Button interpolators = (Button) findViewById(R.id.interpolators);
-        Button bottomBar = (Button) findViewById(R.id.bottomBar);
-        Button awesomeSplash = (Button) findViewById(R.id.awesomeSplash);
-        Button easySplash = (Button) findViewById(R.id.easySplash);
-        Button particleView = (Button)findViewById(R.id.particleView);
-
-        ticker.setOnClickListener(this);
-        interpolators.setOnClickListener(this);
-        bottomBar.setOnClickListener(this);
-        awesomeSplash.setOnClickListener(this);
-        easySplash.setOnClickListener(this);
-        particleView.setOnClickListener(this);
-        findViewById(R.id.jellyToolbar).setOnClickListener(this);
-        findViewById(R.id.alerter).setOnClickListener(this);
     }
 
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()){
+    /**
+     * Ticker library
+     * https://github.com/robinhood/ticker
+     */
+    public void ticker(View view) {
+        TickerActivity.start(this);
+    }
 
-            /**
-             * Ticker library
-             * https://github.com/robinhood/ticker
-             */
-            case R.id.ticker:
-                intent = new Intent(this, TickerActivity.class);
-                startActivity(intent);
-                break;
+    /**
+     * Testing different android interpolators
+     */
+    public void interpolators(View view) {
+        InterpolatorActivity.start(this);
+    }
 
+    /**
+     * Library for realization bottom bar navigation pattern
+     * <p>
+     * Navigation pattern:
+     * https://material.google.com/components/bottom-navigation.html
+     * <p>
+     * <p>
+     * Library:
+     * https://github.com/roughike/BottomBar
+     */
+    public void bottomBar(View view) {
+        BottomBarActivity.start(this);
+    }
 
-            /**
-             * Testing different android interpolators
-             */
-            case R.id.interpolators:
-                intent = new Intent(this, InterpolatorActivity.class);
-                startActivity(intent);
-                break;
+    /**
+     * Library for creating splash screen
+     * <p>
+     * https://github.com/ViksaaSkool/AwesomeSplash
+     */
 
+    public void awesomeSplash(View view) {
+        AwesomeSplashActivity.start(this);
+    }
 
-            /**
-             * Library for realization bottom bar navigation pattern
-             *
-             * Navigation pattern:
-             * https://material.google.com/components/bottom-navigation.html
-             *
-             *
-             * Library:
-             * https://github.com/roughike/BottomBar
-             *
-             */
-            case R.id.bottomBar:
-                intent = new Intent(this, BottomBarActivity.class);
-                startActivity(intent);
-                break;
+    /**
+     * Library for crating splash screen
+     * <p>
+     * https://github.com/pantrif/EasySplashScreen
+     */
+    public void easySplash(View view) {
+        EasySplashActivity.start(this);
+    }
 
+    /**
+     * Library for creating Particle view(view with interesting animation)
+     * <p>
+     * https://github.com/JeasonWong/Particle
+     */
+    public void particleView(View view) {
+        ParticleActivity.start(this);
+    }
 
-            /**
-             *  Library for creating splash screen
-             *
-             *  https://github.com/ViksaaSkool/AwesomeSplash
-             */
+    /**
+     * https://github.com/Yalantis/JellyToolbar
+     */
+    public void jellyToolbar(View view) {
+        JellyToolbarActivity.start(this);
+    }
 
-            case R.id.awesomeSplash:
-                intent = new Intent(this, AwesomeSplashActivity.class);
-                startActivity(intent);
-                break;
-
-            /**
-             *  Library for crating splash screen
-             *
-             *  https://github.com/pantrif/EasySplashScreen
-             */
-            case R.id.easySplash:
-                intent = new Intent(this, EasySplashActivity.class);
-                startActivity(intent);
-                break;
-
-
-            /**
-             *  Library for creating Particle view(view with interesting animation)
-             *
-             *  https://github.com/JeasonWong/Particle
-             */
-            case R.id.particleView:
-                intent = new Intent(this, ParticleActivity.class);
-                startActivity(intent);
-                break;
-
-
-            case R.id.jellyToolbar:
-                intent = new Intent(this, JellyToolbarActivity.class);
-                startActivity(intent);
-                break;
-
-
-            /**
-             * https://github.com/Tapadoo/Alerter
-             */
-            case R.id.alerter:
-                AlerterActivity.start(MainActivity.this);
-                break;
-        }
+    /**
+     * https://github.com/Tapadoo/Alerter
+     */
+    public void alerter(View view) {
+        AlerterActivity.start(MainActivity.this);
     }
 }

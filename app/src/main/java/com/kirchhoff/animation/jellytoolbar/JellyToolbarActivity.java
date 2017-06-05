@@ -1,5 +1,7 @@
 package com.kirchhoff.animation.jellytoolbar;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -19,6 +21,21 @@ public class JellyToolbarActivity extends AppCompatActivity {
 
     private JellyToolbar toolbar;
     private AppCompatEditText editText;
+    private JellyListener jellyListener = new JellyListener() {
+        @Override
+        public void onCancelIconClicked() {
+            if (TextUtils.isEmpty(editText.getText())) {
+                toolbar.collapse();
+            } else {
+                editText.getText().clear();
+            }
+        }
+    };
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, JellyToolbarActivity.class);
+        context.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -33,15 +50,4 @@ public class JellyToolbarActivity extends AppCompatActivity {
         editText.setBackgroundResource(android.R.color.transparent);
         toolbar.setContentView(editText);
     }
-
-    private JellyListener jellyListener = new JellyListener() {
-        @Override
-        public void onCancelIconClicked() {
-            if (TextUtils.isEmpty(editText.getText())) {
-                toolbar.collapse();
-            } else {
-                editText.getText().clear();
-            }
-        }
-    };
 }

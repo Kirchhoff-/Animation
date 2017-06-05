@@ -1,5 +1,7 @@
 package com.kirchhoff.animation.bottombar;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
@@ -18,6 +20,11 @@ public class BottomBarActivity extends AppCompatActivity {
 
     private BottomBar bottomBar;
     private FrameLayout contentContainer;
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, BottomBarActivity.class);
+        context.startActivity(intent);
+    }
 
 
     @Override

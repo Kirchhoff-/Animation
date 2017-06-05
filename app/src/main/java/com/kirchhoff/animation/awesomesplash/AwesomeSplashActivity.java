@@ -1,5 +1,8 @@
 package com.kirchhoff.animation.awesomesplash;
 
+import android.content.Context;
+import android.content.Intent;
+
 import com.daimajia.androidanimations.library.Techniques;
 import com.kirchhoff.animation.R;
 import com.viksaa.sssplash.lib.activity.AwesomeSplash;
@@ -9,6 +12,11 @@ import com.viksaa.sssplash.lib.model.ConfigSplash;
 
 public class AwesomeSplashActivity extends AwesomeSplash {
 
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, AwesomeSplashActivity.class);
+        context.startActivity(intent);
+    }
 
     @Override
     public void initSplash(ConfigSplash configSplash) {

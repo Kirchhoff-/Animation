@@ -1,5 +1,7 @@
 package com.kirchhoff.animation.ticker;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -30,6 +32,11 @@ public class TickerActivity extends AppCompatActivity implements View.OnClickLis
              'e', 'f', 'g', 'h' ,'i', 'j', 'k' , 'l', 'm', 'n', 'o', 'p', 'q', 'r',
              's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
 
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, TickerActivity.class);
+        context.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

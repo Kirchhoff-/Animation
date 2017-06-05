@@ -1,5 +1,7 @@
 package com.kirchhoff.animation.easysplash;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +15,10 @@ import gr.net.maroulis.library.EasySplashScreen;
 
 public class EasySplashActivity extends AppCompatActivity {
 
+    public static void start(Context context) {
+        Intent intent = new Intent(context, EasySplashActivity.class);
+        context.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

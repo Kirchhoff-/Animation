@@ -11,6 +11,7 @@ import com.kirchhoff.animation.easysplash.EasySplashActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
 import com.kirchhoff.animation.jellytoolbar.JellyToolbarActivity;
 import com.kirchhoff.animation.particle.ParticleActivity;
+import com.kirchhoff.animation.recycler.FocusResizeActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
 
 /**
@@ -93,5 +94,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void alerter(View view) {
         AlerterActivity.start(MainActivity.this);
+    }
+
+    /**
+     * https://github.com/bravoborja/FocusResize
+     */
+    public void focusResize(View view) {
+        FocusResizeActivity.start(this);
     }
 }

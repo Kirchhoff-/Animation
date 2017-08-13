@@ -21,6 +21,8 @@
     <string name="alerter.verbose.text">Verbose text</string>
     <string name="alerter.visibility.callback">Visibility callback</string>
 
+    <string name="focus.resize">FocusResize</string>
+
     <string-array name="interpolators">
         <item>Accelerate Decelerate</item>
         <item>Accelerate</item>

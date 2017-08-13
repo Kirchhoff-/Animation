@@ -17,23 +17,29 @@
         </activity>
 
 
-        <activity android:name=".ticker.TickerActivity"/>
+        <activity android:name=".ticker.TickerActivity" />
 
-        <activity android:name=".interpolators.InterpolatorActivity"/>
+        <activity android:name=".interpolators.InterpolatorActivity" />
 
-        <activity android:name=".bottombar.BottomBarActivity"/>
+        <activity android:name=".bottombar.BottomBarActivity" />
 
-        <activity android:name=".awesomesplash.AwesomeSplashActivity"/>
+        <activity android:name=".awesomesplash.AwesomeSplashActivity" />
 
-        <activity android:name=".easysplash.EasySplashActivity"/>
+        <activity android:name=".easysplash.EasySplashActivity" />
 
-        <activity android:name=".particle.ParticleActivity"/>
+        <activity android:name=".particle.ParticleActivity" />
 
-        <activity android:name=".jellytoolbar.JellyToolbarActivity"
-            android:theme="@style/AppTheme.NoToolbar"/>
+        <activity
+            android:name=".jellytoolbar.JellyToolbarActivity"
+            android:theme="@style/AppTheme.NoToolbar" />
 
-        <activity android:name=".alerter.AlerterActivity"
-            android:label="@string/alerter"/>
+        <activity
+            android:name=".alerter.AlerterActivity"
+            android:label="@string/alerter" />
+
+        <activity
+            android:name=".recycler.FocusResizeActivity"
+            android:label="@string/focus.resize" />
 
     </application>
 

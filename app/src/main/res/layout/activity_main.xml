@@ -15,21 +15,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="ticker"
-        android:text="@string/ticker.library"/>
+        android:text="@string/ticker.library" />
 
     <Button
         android:id="@+id/interpolators"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="interpolators"
-        android:text="@string/interpolators"/>
+        android:text="@string/interpolators" />
 
     <Button
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="bottomBar"
-        android:text="@string/bottom_bar"/>
+        android:text="@string/bottom_bar" />
 
     <Button
         android:id="@+id/awesomeSplash"
@@ -44,21 +44,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="easySplash"
-        android:text="@string/easy_splash"/>
+        android:text="@string/easy_splash" />
 
     <Button
         android:id="@+id/particleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="particleView"
-        android:text="@string/particle_view"/>
+        android:text="@string/particle_view" />
 
     <Button
         android:id="@+id/jellyToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="jellyToolbar"
-        android:text="@string/jelly_toolbar"/>
+        android:text="@string/jelly_toolbar" />
 
 
     <Button
@@ -66,6 +66,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="alerter"
-        android:text="@string/alerter"/>
+        android:text="@string/alerter" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="focusResize"
+        android:text="@string/focus.resize" />
 
 </LinearLayout>

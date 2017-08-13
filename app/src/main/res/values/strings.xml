@@ -23,6 +23,11 @@
 
     <string name="focus.resize">FocusResize</string>
 
+    <string name="duo.navigation.drawer">DuoNavigationDrawer</string>
+    <string name="duo.navigation.menu.item">Menu item</string>
+
+
+    <string name="exit">Exit</string>
     <string-array name="interpolators">
         <item>Accelerate Decelerate</item>
         <item>Accelerate</item>

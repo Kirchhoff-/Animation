@@ -41,6 +41,10 @@
             android:name=".recycler.FocusResizeActivity"
             android:label="@string/focus.resize" />
 
+        <activity
+            android:name=".drawer.DuoNavigationDrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 
 </manifest>

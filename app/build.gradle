@@ -52,4 +52,20 @@ dependencies {
 
     // FocusResize RecyclerView
     compile 'com.borjabravo:focusresize:1.0.0'
+
+    // DuoNavigationDrawer
+    compile 'nl.psdcompany:duo-navigation-drawer:2.0.6'
 }
+
+// For resolve library conflict(dou navigation drawer)
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '25.3.0'
+            }
+        }
+    }
+}
+

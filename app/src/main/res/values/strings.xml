@@ -25,6 +25,8 @@
 
     <string name="view">View</string>
 
+    <string name="additive.animations">AdditiveAnimations</string>
+
     <string name="duo.navigation.drawer">DuoNavigationDrawer</string>
     <string name="duo.navigation.menu.item">Menu item</string>
 

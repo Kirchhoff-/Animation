@@ -47,6 +47,10 @@
 
         <activity android:name=".view.ViewActivity" />
 
+        <activity
+            android:name=".animation.additive.AdditiveAnimationActivity"
+            android:label="@string/additive.animations" />
+
     </application>
 
 </manifest>

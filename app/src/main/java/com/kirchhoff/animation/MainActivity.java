@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.kirchhoff.animation.alerter.AlerterActivity;
+import com.kirchhoff.animation.animation.additive.AdditiveAnimationActivity;
 import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.bottombar.BottomBarActivity;
 import com.kirchhoff.animation.drawer.DuoNavigationDrawerActivity;
@@ -117,5 +118,13 @@ public class MainActivity extends AppCompatActivity {
      */
     public void viewActivity(View view) {
         ViewActivity.start(this);
+    }
+
+
+    /**
+     * https://github.com/wirecube/android_additive_animations
+     */
+    public void additiveAnimation(View view) {
+        AdditiveAnimationActivity.start(this);
     }
 }

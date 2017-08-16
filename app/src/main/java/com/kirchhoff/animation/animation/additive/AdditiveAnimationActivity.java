@@ -13,6 +13,7 @@ import android.widget.Switch;
 import com.kirchhoff.animation.R;
 import com.kirchhoff.animation.animation.additive.fragments.ChainingAnimationFragment;
 import com.kirchhoff.animation.animation.additive.fragments.ChangeColorAnimationFragment;
+import com.kirchhoff.animation.animation.additive.fragments.RepeatingChainedAnimationsFragment;
 
 /**
  * @author Kirchhoff-
@@ -59,6 +60,9 @@ public class AdditiveAnimationActivity extends AppCompatActivity {
         } else if (id == R.id.chainingColor) {
             getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,
                     new ChangeColorAnimationFragment()).commit();
+        } else if (id == R.id.repeating) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,
+                    new RepeatingChainedAnimationsFragment()).commit();
         }
         return true;
     }

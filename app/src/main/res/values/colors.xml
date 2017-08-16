@@ -9,6 +9,8 @@
     <color name = "blue">#00F</color>
     <color name="orange">#FFB902</color>
     <color name="blue_4AA5E3">#4AA5E3</color>
+    <color name="green_7D19E">#07D19E</color>
+    <color name="pink">#D13058</color>
 
     <color name="sliderBack">#4227395a</color>
     <array name="progressGradientColors">

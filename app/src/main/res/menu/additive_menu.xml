@@ -5,6 +5,8 @@
     <item
         android:id="@+id/chainingAnimation"
         android:title="Drag to move" />
-
+    <item
+        android:id="@+id/chainingColor"
+        android:title="Color" />
 
 </menu>

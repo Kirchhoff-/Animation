@@ -1,83 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.kirchhoff.animation.MainActivity">
 
-    <Button
-        android:id="@+id/ticker"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="ticker"
-        android:text="@string/ticker.library" />
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
 
-    <Button
-        android:id="@+id/interpolators"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="interpolators"
-        android:text="@string/interpolators" />
+        <Button
+            android:id="@+id/ticker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ticker"
+            android:text="@string/ticker.library" />
 
-    <Button
-        android:id="@+id/bottomBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="bottomBar"
-        android:text="@string/bottom_bar" />
+        <Button
+            android:id="@+id/interpolators"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="interpolators"
+            android:text="@string/interpolators" />
 
-    <Button
-        android:id="@+id/awesomeSplash"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="awesomeSplash"
-        android:text="@string/awesome_splash" />
+        <Button
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="bottomBar"
+            android:text="@string/bottom_bar" />
 
-
-    <Button
-        android:id="@+id/easySplash"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="easySplash"
-        android:text="@string/easy_splash" />
-
-    <Button
-        android:id="@+id/particleView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="particleView"
-        android:text="@string/particle_view" />
-
-    <Button
-        android:id="@+id/jellyToolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="jellyToolbar"
-        android:text="@string/jelly_toolbar" />
+        <Button
+            android:id="@+id/awesomeSplash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="awesomeSplash"
+            android:text="@string/awesome_splash" />
 
 
-    <Button
-        android:id="@+id/alerter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="alerter"
-        android:text="@string/alerter" />
+        <Button
+            android:id="@+id/easySplash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="easySplash"
+            android:text="@string/easy_splash" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="focusResize"
-        android:text="@string/focus.resize" />
+        <Button
+            android:id="@+id/particleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="particleView"
+            android:text="@string/particle_view" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="duoNavigation"
-        android:text="@string/duo.navigation.drawer" />
+        <Button
+            android:id="@+id/jellyToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jellyToolbar"
+            android:text="@string/jelly_toolbar" />
 
-</LinearLayout>
+
+        <Button
+            android:id="@+id/alerter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="alerter"
+            android:text="@string/alerter" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="focusResize"
+            android:text="@string/focus.resize" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="duoNavigation"
+            android:text="@string/duo.navigation.drawer" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="viewActivity"
+            android:text="@string/view" />
+
+    </LinearLayout>
+
+</ScrollView>

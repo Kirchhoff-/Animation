@@ -45,6 +45,8 @@
             android:name=".drawer.DuoNavigationDrawerActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
+        <activity android:name=".view.ViewActivity" />
+
     </application>
 
 </manifest>

@@ -14,6 +14,7 @@ import com.kirchhoff.animation.jellytoolbar.JellyToolbarActivity;
 import com.kirchhoff.animation.particle.ParticleActivity;
 import com.kirchhoff.animation.recycler.FocusResizeActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
+import com.kirchhoff.animation.view.ViewActivity;
 
 /**
  * @author Kirchhoff-
@@ -109,5 +110,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void duoNavigation(View view) {
         DuoNavigationDrawerActivity.start(this);
+    }
+
+    /**
+     * For test different View library
+     */
+    public void viewActivity(View view) {
+        ViewActivity.start(this);
     }
 }

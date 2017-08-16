@@ -55,6 +55,9 @@ dependencies {
 
     // DuoNavigationDrawer
     compile 'nl.psdcompany:duo-navigation-drawer:2.0.6'
+
+    // ArcSeekBar
+    compile 'com.github.marcinmoskala:ArcSeekBar:0.20'
 }
 
 // For resolve library conflict(dou navigation drawer)

@@ -4,9 +4,15 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-
-
     <color name = "yellow">#FF0</color>
     <color name = "green">#0F0</color>
     <color name = "blue">#00F</color>
+
+    <color name="sliderBack">#4227395a</color>
+    <array name="progressGradientColors">
+        <item>#b5fff6</item>
+        <item>#00ffdf</item>
+        <item>#00bfa4</item>
+        <item>#007c6a</item>
+    </array>
 </resources>

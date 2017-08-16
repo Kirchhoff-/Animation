@@ -7,6 +7,8 @@
     <color name = "yellow">#FF0</color>
     <color name = "green">#0F0</color>
     <color name = "blue">#00F</color>
+    <color name="orange">#FFB902</color>
+    <color name="blue_4AA5E3">#4AA5E3</color>
 
     <color name="sliderBack">#4227395a</color>
     <array name="progressGradientColors">

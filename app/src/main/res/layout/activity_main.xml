@@ -96,12 +96,17 @@
             android:onClick="additiveAnimation"
             android:text="@string/additive.animations" />
 
-
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="loadingButton"
             android:text="@string/loading.button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="swipeBackLayout"
+            android:text="@string/swipe.back.layout" />
 
     </LinearLayout>
 

@@ -15,6 +15,7 @@ import com.kirchhoff.animation.jellytoolbar.JellyToolbarActivity;
 import com.kirchhoff.animation.loadingbutton.LoadingButtonActivity;
 import com.kirchhoff.animation.particle.ParticleActivity;
 import com.kirchhoff.animation.recycler.FocusResizeActivity;
+import com.kirchhoff.animation.swipeback.SwipeBackLayoutActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
 import com.kirchhoff.animation.view.ViewActivity;
 
@@ -135,5 +136,10 @@ public class MainActivity extends AppCompatActivity {
      */
     public void loadingButton(View view) {
         LoadingButtonActivity.start(this);
+    }
+
+
+    public void swipeBackLayout(View view) {
+        SwipeBackLayoutActivity.start(this);
     }
 }

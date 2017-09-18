@@ -64,6 +64,9 @@ dependencies {
 
     //LoadingButton
     compile 'com.github.StevenDXC:DxLoadingButton:1.5'
+
+    //SwipeBackLayout
+    compile 'com.gongwen:swipeback:1.0.2'
 }
 
 // For resolve library conflict(dou navigation drawer)

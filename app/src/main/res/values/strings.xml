@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Animation</string>
     <string name="ticker.library">Ticker</string>
-    <string name = "interpolators">Interpolators</string>
-    <string name = "bottom_bar">Bottom bar</string>
-    <string name = "awesome_splash">Awesome Splash</string>
-    <string name = "easy_splash">Easy Splash</string>
-    <string name = "particle_view">Particle View</string>
+    <string name="interpolators">Interpolators</string>
+    <string name="bottom_bar">Bottom bar</string>
+    <string name="awesome_splash">Awesome Splash</string>
+    <string name="easy_splash">Easy Splash</string>
+    <string name="particle_view">Particle View</string>
 
 
     <string name="jelly_toolbar">Jelly toolbar</string>
@@ -27,9 +27,16 @@
 
     <string name="additive.animations">AdditiveAnimations</string>
 
+    <string name="loading.button">LoadingButton</string>
+
     <string name="duo.navigation.drawer">DuoNavigationDrawer</string>
     <string name="duo.navigation.menu.item">Menu item</string>
 
+    <string name="success">success</string>
+    <string name="failed">failed</string>
+    <string name="reset">reset</string>
+    <string name="cancel">cancel</string>
+    <string name="loading">loading</string>
 
     <string name="exit">Exit</string>
     <string-array name="interpolators">

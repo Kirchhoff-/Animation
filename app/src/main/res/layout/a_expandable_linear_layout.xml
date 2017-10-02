@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<iammert.com.expandablelib.ExpandableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/el"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:childLayout="@layout/r_expandable_linear_layout_child"
+    app:parentLayout="@layout/r_expandable_linear_layout_parent" />

@@ -10,6 +10,7 @@ import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.bottombar.BottomBarActivity;
 import com.kirchhoff.animation.drawer.DuoNavigationDrawerActivity;
 import com.kirchhoff.animation.easysplash.EasySplashActivity;
+import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
 import com.kirchhoff.animation.jellytoolbar.JellyToolbarActivity;
 import com.kirchhoff.animation.loadingbutton.LoadingButtonActivity;
@@ -141,5 +142,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void swipeBackLayout(View view) {
         SwipeBackLayoutActivity.start(this);
+    }
+
+
+    /**
+     * https://github.com/iammert/ExpandableLayout
+     */
+    public void expandableLinearLayout(View view) {
+        ExpandableLinearLayoutActivity.start(this);
     }
 }

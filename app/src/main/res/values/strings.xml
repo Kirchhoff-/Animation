@@ -34,6 +34,8 @@
     <string name="duo.navigation.drawer">DuoNavigationDrawer</string>
     <string name="duo.navigation.menu.item">Menu item</string>
 
+    <string name="expandable.linear.layout">Expandable LinearLayout</string>
+
     <string name="success">success</string>
     <string name="failed">failed</string>
     <string name="reset">reset</string>

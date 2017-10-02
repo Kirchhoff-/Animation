@@ -61,6 +61,10 @@
             android:label="@string/swipe.back.layout"
             android:theme="@style/Theme.Swipe.Back.NoActionBar" />
 
+        <activity
+            android:name=".expandable.ExpandableLinearLayoutActivity"
+            android:label="@string/expandable.linear.layout" />
+
     </application>
 
 </manifest>

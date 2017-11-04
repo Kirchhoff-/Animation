@@ -114,6 +114,12 @@
             android:onClick="expandableLinearLayout"
             android:text="@string/expandable.linear.layout" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="vegaLayoutManager"
+            android:text="@string/vega.layout.manager" />
+
     </LinearLayout>
 
 </ScrollView>

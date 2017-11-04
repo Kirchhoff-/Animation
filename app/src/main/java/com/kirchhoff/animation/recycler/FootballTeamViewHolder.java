@@ -11,13 +11,13 @@ import com.kirchhoff.animation.R;
  * @author Kirchhoff-
  */
 
-public class FocusResizeViewHolder extends RecyclerView.ViewHolder {
+public class FootballTeamViewHolder extends RecyclerView.ViewHolder {
 
-    FrameLayout background;
-    TextView clubName;
-    TextView country;
+    public FrameLayout background;
+    public TextView clubName;
+    public TextView country;
 
-    public FocusResizeViewHolder(View itemView) {
+    public FootballTeamViewHolder(View itemView) {
         super(itemView);
         background = (FrameLayout) itemView.findViewById(R.id.background);
         clubName = (TextView) itemView.findViewById(R.id.clubName);

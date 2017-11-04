@@ -1,4 +1,4 @@
-package com.kirchhoff.animation.recycler;
+package com.kirchhoff.animation.recycler.focusresize;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 
 import com.example.library.FocusResizeAdapter;
 import com.kirchhoff.animation.R;
+import com.kirchhoff.animation.recycler.FootballTeamViewHolder;
+import com.kirchhoff.animation.recycler.ImageObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,17 +42,17 @@ public class ResizeAdapter extends FocusResizeAdapter<RecyclerView.ViewHolder> {
     public RecyclerView.ViewHolder onCreateFooterViewHolder(ViewGroup parent, int viewType) {
         // Inflate your custom item layout
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.v_focus_resize, parent, false);
-        return new FocusResizeViewHolder(v);
+        return new FootballTeamViewHolder(v);
     }
 
     @Override
     public void onBindFooterViewHolder(RecyclerView.ViewHolder holder, int position) {
         // Set your data into your custom layout
         ImageObject customObject = items.get(position);
-        fill((FocusResizeViewHolder) holder, customObject);
+        fill((FootballTeamViewHolder) holder, customObject);
     }
 
-    private void fill(FocusResizeViewHolder holder, ImageObject customObject) {
+    private void fill(FootballTeamViewHolder holder, ImageObject customObject) {
         holder.clubName.setText(customObject.getClubName());
         holder.country.setText(customObject.getCountry());
         holder.background.setBackgroundResource(customObject.getClubBackground());

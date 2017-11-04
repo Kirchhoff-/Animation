@@ -1,4 +1,4 @@
-package com.kirchhoff.animation.recycler;
+package com.kirchhoff.animation.recycler.focusresize;
 
 import android.content.Context;
 import android.content.Intent;

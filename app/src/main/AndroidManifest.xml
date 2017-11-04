@@ -39,7 +39,7 @@
             android:label="@string/alerter" />
 
         <activity
-            android:name=".recycler.FocusResizeActivity"
+            android:name=".recycler.focusresize.FocusResizeActivity"
             android:label="@string/focus.resize" />
 
         <activity
@@ -64,6 +64,10 @@
         <activity
             android:name=".expandable.ExpandableLinearLayoutActivity"
             android:label="@string/expandable.linear.layout" />
+
+        <activity
+            android:name=".recycler.vega.VegaManagerActivity"
+            android:label="@string/vega.layout.manager" />
 
     </application>
 

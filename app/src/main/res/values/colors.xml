@@ -12,6 +12,9 @@
     <color name="green_7D19E">#07D19E</color>
     <color name="pink">#D13058</color>
 
+    <color name="colorGrayLight">#444444</color>
+    <color name="colorGrayDark">#121212</color>
+
     <color name="sliderBack">#4227395a</color>
     <array name="progressGradientColors">
         <item>#b5fff6</item>

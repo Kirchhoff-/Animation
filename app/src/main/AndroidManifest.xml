@@ -69,6 +69,23 @@
             android:name=".recycler.vega.VegaManagerActivity"
             android:label="@string/vega.layout.manager" />
 
+        <activity
+            android:name=".scaling.ScalingMainActivity"
+            android:label="@string/scaling.layout" />
+
+        <activity
+            android:name=".scaling.ScalingFab"
+            android:label="@string/scaling.layout.fab" />
+
+        <activity
+            android:name=".scaling.ScalingSearchBar"
+            android:label="@string/scaling.layout.search.bar" />
+
+        <activity
+            android:name=".scaling.ScalingCollapsing"
+            android:label="@string/scaling.layout.collapsing"
+            android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 
 </manifest>

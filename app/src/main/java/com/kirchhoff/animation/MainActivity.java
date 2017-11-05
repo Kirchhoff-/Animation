@@ -17,6 +17,7 @@ import com.kirchhoff.animation.loadingbutton.LoadingButtonActivity;
 import com.kirchhoff.animation.particle.ParticleActivity;
 import com.kirchhoff.animation.recycler.focusresize.FocusResizeActivity;
 import com.kirchhoff.animation.recycler.vega.VegaManagerActivity;
+import com.kirchhoff.animation.scaling.ScalingMainActivity;
 import com.kirchhoff.animation.swipeback.SwipeBackLayoutActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
 import com.kirchhoff.animation.view.ViewActivity;
@@ -154,7 +155,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * https://github.com/xmuSistone/VegaLayoutManager
+     */
     public void vegaLayoutManager(View view) {
         VegaManagerActivity.start(this);
+    }
+
+    /**
+     * https://github.com/iammert/ScalingLayout
+     */
+    public void scalingLayoutExample(View view) {
+        ScalingMainActivity.start(this);
     }
 }

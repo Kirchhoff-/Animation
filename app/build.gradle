@@ -73,6 +73,9 @@ dependencies {
 
     // VegaLayoutManager
     compile 'com.stone.vega.library:VegaLayoutManager:1.0.2'
+
+    // ScalingLayout
+    compile 'com.github.iammert:ScalingLayout:1.1'
 }
 
 // For resolve library conflict(dou navigation drawer)

@@ -86,6 +86,10 @@
             android:label="@string/scaling.layout.collapsing"
             android:theme="@style/AppTheme.NoActionBar" />
 
+        <activity
+            android:name=".toast.FancyToastActivity"
+            android:label="@string/fancy.toast" />
+
     </application>
 
 </manifest>

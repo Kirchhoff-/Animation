@@ -126,6 +126,12 @@
             android:onClick="scalingLayoutExample"
             android:text="@string/scaling.layout" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="fancyToastExample"
+            android:text="@string/fancy.toast" />
+
     </LinearLayout>
 
 </ScrollView>

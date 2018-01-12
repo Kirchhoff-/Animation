@@ -20,6 +20,7 @@ import com.kirchhoff.animation.recycler.vega.VegaManagerActivity;
 import com.kirchhoff.animation.scaling.ScalingMainActivity;
 import com.kirchhoff.animation.swipeback.SwipeBackLayoutActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
+import com.kirchhoff.animation.toast.FancyToastActivity;
 import com.kirchhoff.animation.view.ViewActivity;
 
 /**
@@ -167,5 +168,13 @@ public class MainActivity extends AppCompatActivity {
      */
     public void scalingLayoutExample(View view) {
         ScalingMainActivity.start(this);
+    }
+
+
+    /**
+     * https://github.com/Shashank02051997/FancyToast-Android
+     */
+    public void fancyToastExample(View view) {
+        FancyToastActivity.start(this);
     }
 }

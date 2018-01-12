@@ -38,6 +38,8 @@
 
     <string name="vega.layout.manager">Vega Layout Manager</string>
 
+    <string name="fancy.toast">Fancy Toast</string>
+
     <string name="scaling.layout">Scaling Layout</string>
     <string name="scaling.layout.fab">Scaling Layout Fab</string>
     <string name="scaling.layout.search.bar">Scaling Layout SearchBar</string>

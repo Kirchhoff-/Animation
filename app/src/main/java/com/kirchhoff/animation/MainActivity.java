@@ -8,7 +8,6 @@ import com.kirchhoff.animation.alerter.AlerterActivity;
 import com.kirchhoff.animation.animation.additive.AdditiveAnimationActivity;
 import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.drawer.DuoNavigationDrawerActivity;
-import com.kirchhoff.animation.easysplash.EasySplashActivity;
 import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
 import com.kirchhoff.animation.jellytoolbar.JellyToolbarActivity;
@@ -56,15 +55,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void awesomeSplash(View view) {
         AwesomeSplashActivity.start(this);
-    }
-
-    /**
-     * Library for crating splash screen
-     * <p>
-     * https://github.com/pantrif/EasySplashScreen
-     */
-    public void easySplash(View view) {
-        EasySplashActivity.start(this);
     }
 
     /**

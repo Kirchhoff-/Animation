@@ -25,58 +25,58 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
 
-    compile 'com.robinhood.ticker:ticker:1.1.0'
+    implementation 'com.robinhood.ticker:ticker:1.1.0'
 
-    compile 'com.roughike:bottom-bar:2.+'
+    implementation 'com.roughike:bottom-bar:2.+'
 
     //Awesome splash
-    compile 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.daimajia.easing:library:1.0.1@aar'
-    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
+    implementation 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.easing:library:1.0.1@aar'
+    implementation 'com.daimajia.androidanimations:library:1.1.3@aar'
 
     //Easy splash
-    compile 'gr.pantrif:easy-android-splash-screen:0.0.1'
+    implementation 'gr.pantrif:easy-android-splash-screen:0.0.1'
 
     //Particle View
-    compile 'me.wangyuwei:ParticleView:1.0.4'
+    implementation 'me.wangyuwei:ParticleView:1.0.4'
 
-    compile 'com.github.yalantis:jellytoolbar:v1.0'
+    implementation 'com.github.yalantis:jellytoolbar:v1.0'
 
     // Alerter
-    compile 'com.tapadoo.android:alerter:1.0.8'
+    implementation 'com.tapadoo.android:alerter:1.0.8'
 
     // FocusResize RecyclerView
-    compile 'com.borjabravo:focusresize:1.0.0'
+    implementation 'com.borjabravo:focusresize:1.0.0'
 
     // DuoNavigationDrawer
-    compile 'nl.psdcompany:duo-navigation-drawer:2.0.6'
+    implementation 'nl.psdcompany:duo-navigation-drawer:2.0.6'
 
     // ArcSeekBar
-    compile 'com.github.marcinmoskala:ArcSeekBar:0.20'
+    implementation 'com.github.marcinmoskala:ArcSeekBar:0.20'
 
     //Additive animations
-    compile 'at.wirecube:additive_animations:1.3.1'
+    implementation 'at.wirecube:additive_animations:1.3.1'
 
     //LoadingButton
-    compile 'com.github.StevenDXC:DxLoadingButton:1.5'
+    implementation 'com.github.StevenDXC:DxLoadingButton:1.5'
 
     //SwipeBackLayout
-    compile 'com.gongwen:swipeback:1.0.2'
+    implementation 'com.gongwen:swipeback:1.0.2'
 
     //Expandable LinearLayout
-    compile 'com.github.iammert:ExpandableLayout:1.3'
+    implementation 'com.github.iammert:ExpandableLayout:1.3'
 
     // VegaLayoutManager
-    compile 'com.stone.vega.library:VegaLayoutManager:1.0.2'
+    implementation 'com.stone.vega.library:VegaLayoutManager:1.0.2'
 
     // ScalingLayout
-    compile 'com.github.iammert:ScalingLayout:1.1'
+    implementation 'com.github.iammert:ScalingLayout:1.1'
 
     // FancyToast
-    compile 'com.github.Shashank02051997:FancyToast-Android:0.1.3'
+    implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.3'
 }
 
 // For resolve library conflict(dou navigation drawer)

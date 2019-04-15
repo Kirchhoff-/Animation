@@ -38,8 +38,6 @@ dependencies {
     //Particle View
     implementation 'me.wangyuwei:ParticleView:1.0.4'
 
-    implementation 'com.github.yalantis:jellytoolbar:v1.0'
-
     // Alerter
     implementation 'com.tapadoo.android:alerter:1.0.8'
 

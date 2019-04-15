@@ -43,14 +43,6 @@
             android:text="@string/particle_view" />
 
         <Button
-            android:id="@+id/jellyToolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="jellyToolbar"
-            android:text="@string/jelly_toolbar" />
-
-
-        <Button
             android:id="@+id/alerter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

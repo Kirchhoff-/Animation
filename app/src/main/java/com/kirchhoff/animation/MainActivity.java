@@ -10,7 +10,6 @@ import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.drawer.DuoNavigationDrawerActivity;
 import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
-import com.kirchhoff.animation.jellytoolbar.JellyToolbarActivity;
 import com.kirchhoff.animation.loadingbutton.LoadingButtonActivity;
 import com.kirchhoff.animation.particle.ParticleActivity;
 import com.kirchhoff.animation.recycler.focusresize.FocusResizeActivity;
@@ -64,13 +63,6 @@ public class MainActivity extends AppCompatActivity {
      */
     public void particleView(View view) {
         ParticleActivity.start(this);
-    }
-
-    /**
-     * https://github.com/Yalantis/JellyToolbar
-     */
-    public void jellyToolbar(View view) {
-        JellyToolbarActivity.start(this);
     }
 
     /**

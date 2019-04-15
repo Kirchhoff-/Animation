@@ -17,7 +17,6 @@ import com.kirchhoff.animation.scaling.ScalingMainActivity;
 import com.kirchhoff.animation.swipeback.SwipeBackLayoutActivity;
 import com.kirchhoff.animation.ticker.TickerActivity;
 import com.kirchhoff.animation.toast.FancyToastActivity;
-import com.kirchhoff.animation.view.ViewActivity;
 
 /**
  * @author Kirchhoff-
@@ -77,14 +76,6 @@ public class MainActivity extends AppCompatActivity {
     public void focusResize(View view) {
         FocusResizeActivity.start(this);
     }
-
-    /**
-     * For test different View library
-     */
-    public void viewActivity(View view) {
-        ViewActivity.start(this);
-    }
-
 
     /**
      * https://github.com/wirecube/android_additive_animations

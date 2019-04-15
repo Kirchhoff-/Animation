@@ -58,12 +58,6 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="viewActivity"
-            android:text="@string/view" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:onClick="additiveAnimation"
             android:text="@string/additive.animations" />
 

@@ -44,9 +44,6 @@ dependencies {
     // FocusResize RecyclerView
     implementation 'com.borjabravo:focusresize:1.0.0'
 
-    // ArcSeekBar
-    implementation 'com.github.marcinmoskala:ArcSeekBar:0.20'
-
     //Additive animations
     implementation 'at.wirecube:additive_animations:1.3.1'
 

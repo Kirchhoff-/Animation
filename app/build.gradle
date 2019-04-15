@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 27
@@ -25,6 +27,9 @@ android {
 }
 
 dependencies {
+    //Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
     implementation 'com.android.support:appcompat-v7:27.1.1'
 
     implementation 'com.robinhood.ticker:ticker:1.1.0'

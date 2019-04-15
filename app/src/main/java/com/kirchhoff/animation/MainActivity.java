@@ -7,7 +7,6 @@ import android.view.View;
 import com.kirchhoff.animation.alerter.AlerterActivity;
 import com.kirchhoff.animation.animation.additive.AdditiveAnimationActivity;
 import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
-import com.kirchhoff.animation.bottombar.BottomBarActivity;
 import com.kirchhoff.animation.drawer.DuoNavigationDrawerActivity;
 import com.kirchhoff.animation.easysplash.EasySplashActivity;
 import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
@@ -47,20 +46,6 @@ public class MainActivity extends AppCompatActivity {
      */
     public void interpolators(View view) {
         InterpolatorActivity.start(this);
-    }
-
-    /**
-     * Library for realization bottom bar navigation pattern
-     * <p>
-     * Navigation pattern:
-     * https://material.google.com/components/bottom-navigation.html
-     * <p>
-     * <p>
-     * Library:
-     * https://github.com/roughike/BottomBar
-     */
-    public void bottomBar(View view) {
-        BottomBarActivity.start(this);
     }
 
     /**

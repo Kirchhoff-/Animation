@@ -44,9 +44,6 @@ dependencies {
     // FocusResize RecyclerView
     implementation 'com.borjabravo:focusresize:1.0.0'
 
-    // DuoNavigationDrawer
-    implementation 'nl.psdcompany:duo-navigation-drawer:2.0.6'
-
     // ArcSeekBar
     implementation 'com.github.marcinmoskala:ArcSeekBar:0.20'
 

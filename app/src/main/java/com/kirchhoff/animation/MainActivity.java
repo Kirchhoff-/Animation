@@ -7,7 +7,6 @@ import android.view.View;
 import com.kirchhoff.animation.alerter.AlerterActivity;
 import com.kirchhoff.animation.animation.additive.AdditiveAnimationActivity;
 import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
-import com.kirchhoff.animation.drawer.DuoNavigationDrawerActivity;
 import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
 import com.kirchhoff.animation.loadingbutton.LoadingButtonActivity;
@@ -77,13 +76,6 @@ public class MainActivity extends AppCompatActivity {
      */
     public void focusResize(View view) {
         FocusResizeActivity.start(this);
-    }
-
-    /**
-     * https://github.com/PSD-Company/duo-navigation-drawer
-     */
-    public void duoNavigation(View view) {
-        DuoNavigationDrawerActivity.start(this);
     }
 
     /**

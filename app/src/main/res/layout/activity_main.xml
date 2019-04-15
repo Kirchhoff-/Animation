@@ -58,12 +58,6 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="duoNavigation"
-            android:text="@string/duo.navigation.drawer" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:onClick="viewActivity"
             android:text="@string/view" />
 

@@ -91,7 +91,8 @@ public class MainActivity extends AppCompatActivity {
      * https://github.com/StevenDXC/DxLoadingButton
      */
     public void loadingButton(View view) {
-        LoadingButtonActivity.start(this);
+        Intent intent = new Intent(this, LoadingButtonActivity.class);
+        startActivity(intent);
     }
 
 

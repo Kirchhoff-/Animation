@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
      * https://github.com/JeasonWong/Particle
      */
     public void particleView(View view) {
-        ParticleActivity.start(this);
+        Intent intent = new Intent(this, ParticleActivity.class);
+        startActivity(intent);
     }
 
     /**

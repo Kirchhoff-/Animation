@@ -14,6 +14,6 @@ class ParticleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.particle_activity)
 
-        val particleView = findViewById<ParticleView>(R.id.particleView).startAnim()
+        findViewById<ParticleView>(R.id.particleView).startAnim()
     }
 }

@@ -1,5 +1,6 @@
 package com.kirchhoff.animation;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -66,7 +67,8 @@ public class MainActivity extends AppCompatActivity {
      * https://github.com/Tapadoo/Alerter
      */
     public void alerter(View view) {
-        AlerterActivity.start(MainActivity.this);
+        Intent intent = new Intent(this, AlerterActivity.class);
+        startActivity(intent);
     }
 
     /**

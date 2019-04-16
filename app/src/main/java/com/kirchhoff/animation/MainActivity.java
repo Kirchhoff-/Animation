@@ -51,7 +51,8 @@ public class MainActivity extends AppCompatActivity {
      */
 
     public void awesomeSplash(View view) {
-        AwesomeSplashActivity.start(this);
+        Intent intent = new Intent(this, AwesomeSplashActivity.class);
+        startActivity(intent);
     }
 
     /**

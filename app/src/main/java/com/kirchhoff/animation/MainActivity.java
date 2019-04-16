@@ -106,7 +106,8 @@ public class MainActivity extends AppCompatActivity {
      * https://github.com/iammert/ExpandableLayout
      */
     public void expandableLinearLayout(View view) {
-        ExpandableLinearLayoutActivity.start(this);
+        Intent intent = new Intent(this, ExpandableLinearLayoutActivity.class);
+        startActivity(intent);
     }
 
 

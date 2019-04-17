@@ -55,7 +55,7 @@ dependencies {
     implementation 'com.github.iammert:ExpandableLayout:1.4.1'
 
     // VegaLayoutManager
-    implementation 'com.stone.vega.library:VegaLayoutManager:1.0.2'
+    implementation 'com.stone.vega.library:VegaLayoutManager:1.0.6'
 
     // ScalingLayout
     implementation 'com.github.iammert:ScalingLayout:1.1'

@@ -9,11 +9,11 @@ import android.view.animation.AnticipateInterpolator;
 import android.view.animation.BounceInterpolator;
 import android.view.animation.OvershootInterpolator;
 
+import java.util.Random;
+
 import com.kirchhoff.animation.R;
 import com.robinhood.ticker.TickerUtils;
 import com.robinhood.ticker.TickerView;
-
-import java.util.Random;
 
 /**
  * @author Kirchhoff-
@@ -28,7 +28,7 @@ public class TickerActivity extends AppCompatActivity implements View.OnClickLis
      */
     TickerView tickerView3;
 
-     char[] charList = new char[] { TickerUtils.EMPTY_CHAR, 'a', 'b', 'c', 'd',
+    char[] charList = new char[] { 'a', 'b', 'c', 'd',
              'e', 'f', 'g', 'h' ,'i', 'j', 'k' , 'l', 'm', 'n', 'o', 'p', 'q', 'r',
              's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
 
@@ -51,9 +51,9 @@ public class TickerActivity extends AppCompatActivity implements View.OnClickLis
         tickerView2.setOnClickListener(this);
         tickerView3.setOnClickListener(this);
 
-        tickerView1.setCharacterList(TickerUtils.getDefaultNumberList());
-        tickerView2.setCharacterList(TickerUtils.getDefaultListForUSCurrency());
-        tickerView3.setCharacterList(charList);
+        tickerView1.setCharacterLists(TickerUtils.provideNumberList());
+        tickerView2.setCharacterLists(TickerUtils.provideAlphabeticalList());
+        tickerView3.setCharacterLists(String.valueOf(charList));
 
 
         tickerView1.setText(randomIntNumber());

@@ -32,7 +32,7 @@ dependencies {
 
     implementation 'com.android.support:appcompat-v7:28.0.0'
 
-    implementation 'com.robinhood.ticker:ticker:1.1.0'
+    implementation 'com.robinhood.ticker:ticker:2.0.1'
 
     //Awesome splash
     implementation 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'

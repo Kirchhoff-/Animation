@@ -46,7 +46,7 @@ dependencies {
     implementation 'com.borjabravo:focusresize:1.0.0'
 
     //LoadingButton
-    implementation 'com.github.StevenDXC:DxLoadingButton:1.5'
+    implementation 'com.github.StevenDXC:DxLoadingButton:2.2'
 
     //SwipeBackLayout
     implementation 'com.gongwen:swipeback:1.0.2'

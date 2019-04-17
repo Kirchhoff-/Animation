@@ -6,6 +6,8 @@ import android.view.View
 import android.widget.Toast
 import com.kirchhoff.animation.R
 import com.tapadoo.alerter.Alerter
+import com.tapadoo.alerter.OnHideAlertListener
+import com.tapadoo.alerter.OnShowAlertListener
 
 /**
  * @author Kirchhoff-
@@ -49,7 +51,7 @@ class AlerterActivity : AppCompatActivity(), View.OnClickListener {
     private fun alerterBackground() {
         Alerter.create(this)
                 .setTitle("Title")
-                .setBackgroundColor(R.color.colorPrimary)
+                .setBackgroundColorInt(R.color.colorPrimary)
                 .setText("Some not long text...")
                 .show()
     }
@@ -81,7 +83,7 @@ class AlerterActivity : AppCompatActivity(), View.OnClickListener {
                 .setTitle("Title")
                 .setText("Some not long text...")
                 .setDuration(10000)
-                .setOnClickListener { Toast.makeText(this@AlerterActivity, "OnClickListener", Toast.LENGTH_LONG).show() }
+                .setOnClickListener(View.OnClickListener { Toast.makeText(this@AlerterActivity, "OnClickListener", Toast.LENGTH_LONG).show() })
                 .show()
     }
 
@@ -100,8 +102,8 @@ class AlerterActivity : AppCompatActivity(), View.OnClickListener {
         Alerter.create(this)
                 .setTitle("Title")
                 .setText("Some not long text...")
-                .setOnShowListener { Toast.makeText(this@AlerterActivity, "Alert Shown", Toast.LENGTH_LONG).show() }
-                .setOnHideListener { Toast.makeText(this@AlerterActivity, "Alert Hidden", Toast.LENGTH_LONG).show() }
+                .setOnShowListener(OnShowAlertListener { Toast.makeText(this@AlerterActivity, "Alert Shown", Toast.LENGTH_LONG).show() })
+                .setOnHideListener(OnHideAlertListener { Toast.makeText(this@AlerterActivity, "Alert Hidden", Toast.LENGTH_LONG).show() })
                 .setDuration(3000)
                 .show()
     }

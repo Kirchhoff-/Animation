@@ -40,7 +40,7 @@ dependencies {
     implementation 'me.wangyuwei:ParticleView:1.0.4'
 
     // Alerter
-    implementation 'com.tapadoo.android:alerter:1.0.8'
+    implementation 'com.tapadoo.android:alerter:4.0.2'
 
     // FocusResize RecyclerView
     implementation 'com.borjabravo:focusresize:1.0.0'

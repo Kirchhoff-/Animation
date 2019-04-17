@@ -52,7 +52,7 @@ dependencies {
     implementation 'com.gongwen:swipeback:1.0.2'
 
     //Expandable LinearLayout
-    implementation 'com.github.iammert:ExpandableLayout:1.3'
+    implementation 'com.github.iammert:ExpandableLayout:1.4.1'
 
     // VegaLayoutManager
     implementation 'com.stone.vega.library:VegaLayoutManager:1.0.2'

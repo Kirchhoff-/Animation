@@ -6,21 +6,21 @@
     android:padding="16dp">
 
     <Button
+        android:id="@+id/bScalingLayoutFab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="scalingLayoutFab"
         android:text="@string/scaling.layout.fab" />
 
     <Button
+        android:id="@+id/bScalingLayoutSearchBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="scalingLayoutSearchBar"
         android:text="@string/scaling.layout.search.bar" />
 
     <Button
+        android:id="@+id/bScalingLayoutCollapsing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="scalingLayoutCollapsing"
         android:text="@string/scaling.layout.collapsing" />
 
 </LinearLayout>

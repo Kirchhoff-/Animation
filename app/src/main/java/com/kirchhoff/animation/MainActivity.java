@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
      * https://github.com/iammert/ScalingLayout
      */
     public void scalingLayoutExample(View view) {
-        ScalingMainActivity.start(this);
+        Intent intent = new Intent(this, ScalingMainActivity.class);
+        startActivity(intent);
     }
 }

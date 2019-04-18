@@ -27,7 +27,7 @@ public class ScalingMainActivity extends AppCompatActivity {
     }
 
     public void scalingLayoutFab(View view) {
-        ScalingFab.start(this);
+        ScalingFab.Companion.start(this);
     }
 
     public void scalingLayoutSearchBar(View view) {

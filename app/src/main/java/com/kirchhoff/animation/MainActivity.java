@@ -89,9 +89,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void swipeBackLayout(View view) {
-        SwipeBackLayoutActivity.start(this);
+        Intent intent = new Intent(this, SwipeBackLayoutActivity.class);
+        startActivity(intent);
     }
-
 
     /**
      * https://github.com/iammert/ExpandableLayout

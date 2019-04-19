@@ -16,22 +16,13 @@
             </intent-filter>
         </activity>
 
-
         <activity android:name=".ticker.TickerActivity" />
 
         <activity android:name=".interpolators.InterpolatorActivity" />
 
-        <activity android:name=".bottombar.BottomBarActivity" />
-
         <activity android:name=".awesomesplash.AwesomeSplashActivity" />
 
-        <activity android:name=".easysplash.EasySplashActivity" />
-
         <activity android:name=".particle.ParticleActivity" />
-
-        <activity
-            android:name=".jellytoolbar.JellyToolbarActivity"
-            android:theme="@style/AppTheme.NoToolbar" />
 
         <activity
             android:name=".alerter.AlerterActivity"
@@ -40,16 +31,6 @@
         <activity
             android:name=".recycler.focusresize.FocusResizeActivity"
             android:label="@string/focus.resize" />
-
-        <activity
-            android:name=".drawer.DuoNavigationDrawerActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity android:name=".view.ViewActivity" />
-
-        <activity
-            android:name=".animation.additive.AdditiveAnimationActivity"
-            android:label="@string/additive.animations" />
 
         <activity
             android:name=".loadingbutton.LoadingButtonActivity"
@@ -84,10 +65,6 @@
             android:name=".scaling.ScalingCollapsing"
             android:label="@string/scaling.layout.collapsing"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
-            android:name=".toast.FancyToastActivity"
-            android:label="@string/fancy.toast" />
 
     </application>
 

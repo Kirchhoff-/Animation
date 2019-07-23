@@ -29,13 +29,6 @@
             android:text="@string/interpolators" />
 
         <Button
-            android:id="@+id/awesomeSplash"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="awesomeSplash"
-            android:text="@string/awesome_splash" />
-
-        <Button
             android:id="@+id/particleView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

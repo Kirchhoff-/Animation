@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.kirchhoff.animation.alerter.AlerterActivity;
-import com.kirchhoff.animation.awesomesplash.AwesomeSplashActivity;
 import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
 import com.kirchhoff.animation.loadingbutton.LoadingButtonActivity;
@@ -42,17 +41,6 @@ public class MainActivity extends AppCompatActivity {
 	 */
 	public void interpolators(View view) {
 		InterpolatorActivity.start(this);
-	}
-
-	/**
-	 * Library for creating splash screen
-	 * <p>
-	 * https://github.com/ViksaaSkool/AwesomeSplash
-	 */
-
-	public void awesomeSplash(View view) {
-		Intent intent = new Intent(this, AwesomeSplashActivity.class);
-		startActivity(intent);
 	}
 
 	/**

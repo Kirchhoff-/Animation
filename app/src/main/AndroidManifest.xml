@@ -20,8 +20,6 @@
 
         <activity android:name=".interpolators.InterpolatorActivity" />
 
-        <activity android:name=".awesomesplash.AwesomeSplashActivity" />
-
         <activity android:name=".particle.ParticleActivity" />
 
         <activity

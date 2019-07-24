@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">alerter</string>
+
+    <string name="alerter">Alerter</string>
+    <string name="alerter_simple">Simple</string>
+    <string name="alerter_background">Background</string>
+    <string name="alerter_icon">Icon</string>
+    <string name="alerter_duration">Duration</string>
+    <string name="alerter_title">Title</string>
+    <string name="alerter_onclicklistener">OnClickListener</string>
+    <string name="alerter_verbose_text">Verbose text</string>
+    <string name="alerter_visibility_callback">Visibility callback</string>
+</resources>

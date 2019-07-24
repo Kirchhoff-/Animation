@@ -11,16 +11,6 @@
     <string name="jelly_toolbar">Jelly toolbar</string>
     <string name="jelly_toolbar_hint">Jelly Hint</string>
 
-    <string name="alerter">Alerter</string>
-    <string name="alerter.simple">Simple</string>
-    <string name="alerter.background">Background</string>
-    <string name="alerter.icon">Icon</string>
-    <string name="alerter.duration">Duration</string>
-    <string name="alerter.title">Title</string>
-    <string name="alerter.onclicklistener">OnClickListener</string>
-    <string name="alerter.verbose.text">Verbose text</string>
-    <string name="alerter.visibility.callback">Visibility callback</string>
-
     <string name="focus.resize">FocusResize</string>
 
     <string name="view">View</string>

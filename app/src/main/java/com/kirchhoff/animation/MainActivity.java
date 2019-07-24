@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.kirchhoff.animation.alerter.AlerterActivity;
+import com.example.alerter.AlerterActivity;
 import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
 import com.kirchhoff.animation.interpolators.InterpolatorActivity;
 import com.kirchhoff.animation.loadingbutton.LoadingButtonActivity;

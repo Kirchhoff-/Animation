@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlerterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bSimple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alerter_simple" />
+
+        <Button
+            android:id="@+id/bBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alerter_background" />
+
+        <Button
+            android:id="@+id/bIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alerter_icon" />
+
+        <Button
+            android:id="@+id/bDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alerter_duration" />
+
+        <Button
+            android:id="@+id/bTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alerter_title" />
+
+        <Button
+            android:id="@+id/bOnClickListener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alerter_onclicklistener" />
+
+        <Button
+            android:id="@+id/bVerboseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alerter_verbose_text" />
+
+        <Button
+            android:id="@+id/bAlertVisibilityCallback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alerter_visibility_callback" />
+
+    </LinearLayout>
+
+</ScrollView>

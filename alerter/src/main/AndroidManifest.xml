@@ -1,0 +1,9 @@
+<manifest package="com.example.alerter"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity android:name=".AlerterActivity"
+            android:label="@string/alerter"/>
+    </application>
+
+</manifest>

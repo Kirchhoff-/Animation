@@ -23,10 +23,6 @@
         <activity android:name=".particle.ParticleActivity" />
 
         <activity
-            android:name=".alerter.AlerterActivity"
-            android:label="@string/alerter" />
-
-        <activity
             android:name=".recycler.focusresize.FocusResizeActivity"
             android:label="@string/focus.resize" />
 

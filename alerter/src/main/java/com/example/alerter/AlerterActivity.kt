@@ -1,17 +1,12 @@
-package com.kirchhoff.animation.alerter
+package com.example.alerter
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.Toast
-import com.kirchhoff.animation.R
 import com.tapadoo.alerter.Alerter
 import com.tapadoo.alerter.OnHideAlertListener
 import com.tapadoo.alerter.OnShowAlertListener
-
-/**
- * @author Kirchhoff-
- */
 
 class AlerterActivity : AppCompatActivity(), View.OnClickListener {
 

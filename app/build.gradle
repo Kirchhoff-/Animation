@@ -36,9 +36,6 @@ dependencies {
     //Particle View
     implementation 'me.wangyuwei:ParticleView:1.0.4'
 
-    // Alerter
-    implementation 'com.tapadoo.android:alerter:4.0.2'
-
     // FocusResize RecyclerView
     implementation 'com.borjabravo:focusresize:1.0.0'
 
@@ -56,6 +53,8 @@ dependencies {
 
     // ScalingLayout
     implementation 'com.github.iammert:ScalingLayout:1.1'
+
+    implementation project(path: ':alerter')
 }
 
 // For resolve library conflict(dou navigation drawer)

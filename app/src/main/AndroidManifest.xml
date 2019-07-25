@@ -18,8 +18,6 @@
 
         <activity android:name=".ticker.TickerActivity" />
 
-        <activity android:name=".interpolators.InterpolatorActivity" />
-
         <activity android:name=".particle.ParticleActivity" />
 
         <activity

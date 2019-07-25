@@ -7,7 +7,6 @@ import android.view.View;
 
 import com.example.alerter.AlerterActivity;
 import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
-import com.kirchhoff.animation.interpolators.InterpolatorActivity;
 import com.kirchhoff.animation.loadingbutton.LoadingButtonActivity;
 import com.kirchhoff.animation.particle.ParticleActivity;
 import com.kirchhoff.animation.recycler.focusresize.FocusResizeActivity;
@@ -34,13 +33,6 @@ public class MainActivity extends AppCompatActivity {
 	public void ticker(View view) {
 		Intent intent = new Intent(this, TickerActivity.class);
 		startActivity(intent);
-	}
-
-	/**
-	 * Testing different android interpolators
-	 */
-	public void interpolators(View view) {
-		InterpolatorActivity.start(this);
 	}
 
 	/**

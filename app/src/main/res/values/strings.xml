@@ -17,8 +17,6 @@
 
     <string name="additive.animations">AdditiveAnimations</string>
 
-    <string name="loading.button">LoadingButton</string>
-
     <string name="swipe.back.layout">SwipeBackLayout</string>
 
     <string name="duo.navigation.drawer">DuoNavigationDrawer</string>
@@ -40,12 +38,6 @@
     Long long text Long long text Long long text Long long text Long long text Long long text
     Long long text Long long text Long long text Long long text Long long text Long long text
     Long long text Long long text Long long text Long long text Long long text Long long text </string>
-
-    <string name="success">success</string>
-    <string name="failed">failed</string>
-    <string name="reset">reset</string>
-    <string name="cancel">cancel</string>
-    <string name="loading">loading</string>
 
     <string name="left">Left</string>
     <string name="right">Right</string>

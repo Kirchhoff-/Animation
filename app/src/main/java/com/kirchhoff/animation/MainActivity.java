@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.alerter.AlerterActivity;
+import com.example.loadingbutton.LoadingButtonActivity;
 import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
-import com.kirchhoff.animation.loadingbutton.LoadingButtonActivity;
 import com.kirchhoff.animation.particle.ParticleActivity;
 import com.kirchhoff.animation.recycler.focusresize.FocusResizeActivity;
 import com.kirchhoff.animation.recycler.vega.VegaManagerActivity;

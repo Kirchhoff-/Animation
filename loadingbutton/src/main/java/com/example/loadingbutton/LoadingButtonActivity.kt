@@ -1,14 +1,9 @@
-package com.kirchhoff.animation.loadingbutton
+package com.example.loadingbutton
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.dx.dxloadingbutton.lib.LoadingButton
-import com.kirchhoff.animation.R
-
-/**
- * @author Kirchhoff-
- */
 
 class LoadingButtonActivity : AppCompatActivity() {
 

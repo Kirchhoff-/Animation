@@ -39,9 +39,6 @@ dependencies {
     // FocusResize RecyclerView
     implementation 'com.borjabravo:focusresize:1.0.0'
 
-    //LoadingButton
-    implementation 'com.github.StevenDXC:DxLoadingButton:2.2'
-
     //SwipeBackLayout
     implementation 'com.gongwen:swipeback:1.0.2'
 
@@ -55,6 +52,7 @@ dependencies {
     implementation 'com.github.iammert:ScalingLayout:1.1'
 
     implementation project(path: ':alerter')
+    implementation project(path: ':loadingbutton')
 }
 
 // For resolve library conflict(dou navigation drawer)

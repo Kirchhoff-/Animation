@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="loadingButton"
-            android:text="@string/loading.button" />
+            android:text="@string/loading_button" />
 
         <Button
             android:layout_width="match_parent"

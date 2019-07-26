@@ -25,10 +25,6 @@
             android:label="@string/focus.resize" />
 
         <activity
-            android:name=".loadingbutton.LoadingButtonActivity"
-            android:label="@string/loading.button" />
-
-        <activity
             android:name=".swipeback.SwipeBackLayoutActivity"
             android:label="@string/swipe.back.layout"
             android:theme="@style/Theme.Swipe.Back.NoActionBar" />

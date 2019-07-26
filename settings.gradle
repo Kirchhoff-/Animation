@@ -1,1 +1,1 @@
-include ':app', ':alerter'
+include ':app', ':alerter', ':loadingbutton'

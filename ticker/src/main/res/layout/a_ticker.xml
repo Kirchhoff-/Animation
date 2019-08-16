@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
 
-
     <com.robinhood.ticker.TickerView
         android:id="@+id/tickerView1"
         android:layout_width="wrap_content"

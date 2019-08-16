@@ -1,4 +1,4 @@
-package com.kirchhoff.animation.ticker
+package com.example
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.animation.AnticipateInterpolator
 import android.view.animation.BounceInterpolator
 import android.view.animation.OvershootInterpolator
-import com.kirchhoff.animation.R
+import com.example.ticker.R
 import com.robinhood.ticker.TickerUtils
 import com.robinhood.ticker.TickerView
 import java.util.*
@@ -24,7 +24,7 @@ class TickerActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.ticker_activity)
+        setContentView(R.layout.a_ticker)
 
         tickerView1 = findViewById(R.id.tickerView1)
         tickerView2 = findViewById(R.id.tickerView2)

@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Animation</string>
-    <string name="ticker.library">Ticker</string>
     <string name="interpolators">Interpolators</string>
     <string name="bottom_bar">Bottom bar</string>
     <string name="awesome_splash">Awesome Splash</string>

@@ -16,8 +16,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".particle.ParticleActivity" />
-
         <activity
             android:name=".recycler.focusresize.FocusResizeActivity"
             android:label="@string/focus.resize" />

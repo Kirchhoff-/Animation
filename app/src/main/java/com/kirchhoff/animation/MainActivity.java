@@ -9,11 +9,11 @@ import com.example.TickerActivity;
 import com.example.alerter.AlerterActivity;
 import com.example.loadingbutton.LoadingButtonActivity;
 import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
-import com.kirchhoff.animation.particle.ParticleActivity;
 import com.kirchhoff.animation.recycler.focusresize.FocusResizeActivity;
 import com.kirchhoff.animation.recycler.vega.VegaManagerActivity;
 import com.kirchhoff.animation.scaling.ScalingMainActivity;
 import com.kirchhoff.animation.swipeback.SwipeBackLayoutActivity;
+import com.kirchhoff.particle.ParticleActivity;
 
 /**
  * @author Kirchhoff-

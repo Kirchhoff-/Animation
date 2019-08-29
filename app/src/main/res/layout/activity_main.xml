@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="particleView"
-            android:text="@string/particle_view" />
+            android:text="@string/particle" />
 
         <Button
             android:id="@+id/alerter"

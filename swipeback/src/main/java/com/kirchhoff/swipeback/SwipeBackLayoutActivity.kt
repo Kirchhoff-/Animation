@@ -1,10 +1,9 @@
-package com.kirchhoff.animation.swipeback
+package com.kirchhoff.swipeback
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import com.gw.swipeback.SwipeBackLayout
-import com.kirchhoff.animation.R
 
 class SwipeBackLayoutActivity : AppCompatActivity() {
 

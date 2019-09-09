@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="swipeBackLayout"
-            android:text="@string/swipe.back.layout" />
+            android:text="@string/swipe_back_layout_example" />
 
         <Button
             android:layout_width="match_parent"

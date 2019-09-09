@@ -34,9 +34,6 @@ dependencies {
     // FocusResize RecyclerView
     implementation 'com.borjabravo:focusresize:1.0.0'
 
-    //SwipeBackLayout
-    implementation 'com.gongwen:swipeback:1.0.2'
-
     //Expandable LinearLayout
     implementation 'com.github.iammert:ExpandableLayout:1.4.1'
 
@@ -50,6 +47,7 @@ dependencies {
     implementation project(path: ':loadingbutton')
     implementation project(path: ':ticker')
     implementation project(path: ':particle')
+    implementation project(path: ':swipeback')
 }
 
 // For resolve library conflict(dou navigation drawer)

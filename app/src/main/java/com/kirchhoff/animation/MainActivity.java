@@ -12,8 +12,8 @@ import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity;
 import com.kirchhoff.animation.recycler.focusresize.FocusResizeActivity;
 import com.kirchhoff.animation.recycler.vega.VegaManagerActivity;
 import com.kirchhoff.animation.scaling.ScalingMainActivity;
-import com.kirchhoff.animation.swipeback.SwipeBackLayoutActivity;
 import com.kirchhoff.particle.ParticleActivity;
+import com.kirchhoff.swipeback.SwipeBackLayoutActivity;
 
 /**
  * @author Kirchhoff-

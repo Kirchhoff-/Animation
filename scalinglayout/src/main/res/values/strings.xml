@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scaling_layout">Scaling Layout</string>
+    <string name="scaling_layout_fab">Scaling Layout Fab</string>
+    <string name="scaling_layout_search_bar">Scaling Layout SearchBar</string>
+    <string name="scaling_layout_collapsing">Scaling layout collapsing</string>
+    <string name="scaling_layout_long_text">Long long text Long long text Long long text
+    Long long text Long long text Long long text Long long text Long long text Long long text
+    Long long text Long long text Long long text Long long text Long long text Long long text
+    Long long text Long long text Long long text Long long text Long long text Long long text
+    Long long text Long long text Long long text Long long text Long long text Long long text
+    Long long text Long long text Long long text Long long text Long long text Long long text </string>
+</resources>

@@ -25,17 +25,6 @@
 
     <string name="fancy.toast">Fancy Toast</string>
 
-    <string name="scaling.layout">Scaling Layout</string>
-    <string name="scaling.layout.fab">Scaling Layout Fab</string>
-    <string name="scaling.layout.search.bar">Scaling Layout SearchBar</string>
-    <string name="scaling.layout.collapsing">Scaling layout collapsing</string>
-    <string name="scaling.layout.long.text">Long long text Long long text Long long text
-    Long long text Long long text Long long text Long long text Long long text Long long text
-    Long long text Long long text Long long text Long long text Long long text Long long text
-    Long long text Long long text Long long text Long long text Long long text Long long text
-    Long long text Long long text Long long text Long long text Long long text Long long text
-    Long long text Long long text Long long text Long long text Long long text Long long text </string>
-
     <string name="left">Left</string>
     <string name="right">Right</string>
     <string name="bottom">Bottom</string>

@@ -1,11 +1,9 @@
-package com.kirchhoff.animation.scaling
+package com.kirchhoff.scalinglayout
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
-
-import com.kirchhoff.animation.R
 
 class ScalingMainActivity : AppCompatActivity(), View.OnClickListener {
 

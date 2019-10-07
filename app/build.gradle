@@ -40,14 +40,12 @@ dependencies {
     // VegaLayoutManager
     implementation 'com.stone.vega.library:VegaLayoutManager:1.0.6'
 
-    // ScalingLayout
-    implementation 'com.github.iammert:ScalingLayout:1.1'
-
     implementation project(path: ':alerter')
     implementation project(path: ':loadingbutton')
     implementation project(path: ':ticker')
     implementation project(path: ':particle')
     implementation project(path: ':swipeback')
+    implementation project(path: ':scalinglayout')
 }
 
 // For resolve library conflict(dou navigation drawer)

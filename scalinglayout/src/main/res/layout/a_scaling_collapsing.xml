@@ -65,10 +65,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="@string/scaling.layout.long.text"
+                android:text="@string/scaling_layout_long_text"
                 android:textColor="#ffffff"
                 android:textSize="17sp" />
-
 
         </LinearLayout>
 

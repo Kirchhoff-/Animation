@@ -1,10 +1,8 @@
-package com.kirchhoff.animation.scaling
+package com.kirchhoff.scalinglayout
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
-
-import com.kirchhoff.animation.R
 
 class ScalingCollapsing : AppCompatActivity() {
 

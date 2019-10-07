@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kirchhoff.scalinglayout">
+
+    <application>
+        <activity
+            android:name=".ScalingMainActivity"
+            android:label="@string/scaling_layout" />
+
+        <activity
+            android:name=".ScalingFab"
+            android:label="@string/scaling_layout_fab" />
+
+        <activity
+            android:name=".ScalingSearchBar"
+            android:label="@string/scaling_layout_search_bar" />
+
+        <activity
+            android:name=".ScalingCollapsing"
+            android:label="@string/scaling_layout_collapsing"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+</manifest>

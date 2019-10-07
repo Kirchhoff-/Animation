@@ -9,18 +9,18 @@
         android:id="@+id/bScalingLayoutFab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/scaling.layout.fab" />
+        android:text="@string/scaling_layout_fab" />
 
     <Button
         android:id="@+id/bScalingLayoutSearchBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/scaling.layout.search.bar" />
+        android:text="@string/scaling_layout_search_bar" />
 
     <Button
         android:id="@+id/bScalingLayoutCollapsing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/scaling.layout.collapsing" />
+        android:text="@string/scaling_layout_collapsing" />
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.kirchhoff.animation.scaling
+package com.kirchhoff.scalinglayout
 
 import android.os.Bundle
 import android.support.v4.view.ViewCompat
@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
-import com.kirchhoff.animation.R
 import iammert.com.view.scalinglib.ScalingLayout
 import iammert.com.view.scalinglib.ScalingLayoutListener
 import iammert.com.view.scalinglib.State

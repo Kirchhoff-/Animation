@@ -1,6 +1,6 @@
 package com.kirchhoff.animation.recycler;
 
-import android.support.annotation.DrawableRes;
+import androidx.annotation.DrawableRes;
 
 import com.kirchhoff.animation.R;
 

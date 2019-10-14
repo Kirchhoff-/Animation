@@ -1,1 +1,1 @@
-include ':app', ':alerter', ':loadingbutton', ':ticker', ':particle', ':swipeback', ':scalinglayout'
+include ':app', ':alerter', ':loadingbutton', ':ticker', ':particle', ':swipeback', ':scalinglayout', ':expandablelayout'

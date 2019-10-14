@@ -1,4 +1,4 @@
-package com.kirchhoff.animation.expandable
+package com.kirchhoff.expandablelayout
 
 data class Player(val name: String)
 

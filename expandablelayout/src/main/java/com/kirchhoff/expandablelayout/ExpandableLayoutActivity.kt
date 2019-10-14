@@ -1,14 +1,13 @@
-package com.kirchhoff.animation.expandable
+package com.kirchhoff.expandablelayout
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.widget.TextView
-import com.kirchhoff.animation.R
 import iammert.com.expandablelib.ExpandableLayout
 import iammert.com.expandablelib.Section
 
-class ExpandableLinearLayoutActivity : AppCompatActivity() {
+class ExpandableLayoutActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

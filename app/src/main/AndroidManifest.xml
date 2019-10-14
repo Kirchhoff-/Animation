@@ -21,10 +21,6 @@
             android:label="@string/focus.resize" />
 
         <activity
-            android:name=".expandable.ExpandableLinearLayoutActivity"
-            android:label="@string/expandable.linear.layout" />
-
-        <activity
             android:name=".recycler.vega.VegaManagerActivity"
             android:label="@string/vega.layout.manager" />
 

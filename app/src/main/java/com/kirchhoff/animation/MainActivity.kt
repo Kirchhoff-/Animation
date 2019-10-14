@@ -7,9 +7,9 @@ import android.view.View
 import com.example.TickerActivity
 import com.example.alerter.AlerterActivity
 import com.example.loadingbutton.LoadingButtonActivity
-import com.kirchhoff.animation.expandable.ExpandableLinearLayoutActivity
 import com.kirchhoff.animation.recycler.focusresize.FocusResizeActivity
 import com.kirchhoff.animation.recycler.vega.VegaManagerActivity
+import com.kirchhoff.expandablelayout.ExpandableLayoutActivity
 import com.kirchhoff.particle.ParticleActivity
 import com.kirchhoff.scalinglayout.ScalingMainActivity
 import com.kirchhoff.swipeback.SwipeBackLayoutActivity
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     fun focusResize(view: View) = startActivity(FocusResizeActivity::class.java)
     fun loadingButton(view: View) = startActivity(LoadingButtonActivity::class.java)
     fun swipeBackLayout(view: View) = startActivity(SwipeBackLayoutActivity::class.java)
-    fun expandableLinearLayout(view: View) = startActivity(ExpandableLinearLayoutActivity::class.java)
+    fun expandableLayout(view: View) = startActivity(ExpandableLayoutActivity::class.java)
     fun vegaLayoutManager(view: View) = startActivity(VegaManagerActivity::class.java)
     fun scalingLayoutExample(view: View) = startActivity(ScalingMainActivity::class.java)
 

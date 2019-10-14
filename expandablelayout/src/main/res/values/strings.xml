@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="expandable_layout_title">ExpandableLayout</string>
+    <string name="expandable_layout_example">ExpandableLayout example</string>
+</resources>

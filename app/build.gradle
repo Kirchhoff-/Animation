@@ -34,9 +34,6 @@ dependencies {
     // FocusResize RecyclerView
     implementation 'com.borjabravo:focusresize:1.0.0'
 
-    //Expandable LinearLayout
-    implementation 'com.github.iammert:ExpandableLayout:1.4.1'
-
     // VegaLayoutManager
     implementation 'com.stone.vega.library:VegaLayoutManager:1.0.6'
 
@@ -46,6 +43,7 @@ dependencies {
     implementation project(path: ':particle')
     implementation project(path: ':swipeback')
     implementation project(path: ':scalinglayout')
+    implementation project(path: ':expandablelayout')
 }
 
 // For resolve library conflict(dou navigation drawer)

@@ -63,8 +63,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="expandableLinearLayout"
-            android:text="@string/expandable.linear.layout" />
+            android:onClick="expandableLayout"
+            android:text="@string/expandable_layout_example" />
 
         <Button
             android:layout_width="match_parent"

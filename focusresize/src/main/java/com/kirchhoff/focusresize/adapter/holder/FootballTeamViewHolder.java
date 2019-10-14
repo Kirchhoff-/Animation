@@ -1,15 +1,11 @@
-package com.kirchhoff.animation.recycler;
+package com.kirchhoff.focusresize.adapter.holder;
 
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.kirchhoff.animation.R;
-
-/**
- * @author Kirchhoff-
- */
+import com.kirchhoff.focusresize.R;
 
 public class FootballTeamViewHolder extends RecyclerView.ViewHolder {
 

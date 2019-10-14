@@ -8,8 +8,6 @@
     <string name="jelly_toolbar">Jelly toolbar</string>
     <string name="jelly_toolbar_hint">Jelly Hint</string>
 
-    <string name="focus.resize">FocusResize</string>
-
     <string name="view">View</string>
 
     <string name="additive.animations">AdditiveAnimations</string>

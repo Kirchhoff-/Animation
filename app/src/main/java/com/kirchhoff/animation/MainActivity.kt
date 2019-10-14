@@ -7,7 +7,7 @@ import android.view.View
 import com.example.TickerActivity
 import com.example.alerter.AlerterActivity
 import com.example.loadingbutton.LoadingButtonActivity
-import com.kirchhoff.animation.recycler.focusresize.FocusResizeActivity
+import com.kirchhoff.focusresize.FocusResizeActivity
 import com.kirchhoff.animation.recycler.vega.VegaManagerActivity
 import com.kirchhoff.expandablelayout.ExpandableLayoutActivity
 import com.kirchhoff.particle.ParticleActivity

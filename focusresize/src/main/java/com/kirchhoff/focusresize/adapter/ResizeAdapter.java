@@ -1,4 +1,4 @@
-package com.kirchhoff.animation.recycler.focusresize;
+package com.kirchhoff.focusresize.adapter;
 
 import android.content.Context;
 import androidx.recyclerview.widget.RecyclerView;
@@ -7,16 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.library.FocusResizeAdapter;
-import com.kirchhoff.animation.R;
-import com.kirchhoff.animation.recycler.FootballTeamViewHolder;
-import com.kirchhoff.animation.recycler.ImageObject;
+import com.kirchhoff.focusresize.adapter.holder.FootballTeamViewHolder;
+import com.kirchhoff.focusresize.data.ImageObject;
+import com.kirchhoff.focusresize.R;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * @author Kirchhoff-
- */
 
 public class ResizeAdapter extends FocusResizeAdapter<RecyclerView.ViewHolder> {
 

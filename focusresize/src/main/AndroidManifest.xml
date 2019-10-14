@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kirchhoff.focusresize">
+    <application>
+        <activity android:name=".FocusResizeActivity"
+            android:label="@string/focus_resize_title"/>
+    </application>
+</manifest>

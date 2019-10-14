@@ -1,12 +1,8 @@
-package com.kirchhoff.animation.recycler;
+package com.kirchhoff.focusresize.data;
 
 import androidx.annotation.DrawableRes;
 
-import com.kirchhoff.animation.R;
-
-/**
- * @author Kirchhoff-
- */
+import com.kirchhoff.focusresize.R;
 
 public class ImageObject {
 

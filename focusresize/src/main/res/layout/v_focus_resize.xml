@@ -4,8 +4,7 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="@dimen/focus_resize_item_height"
-    android:orientation="vertical"
-    tools:background="@drawable/focus_image_1">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/clubName"

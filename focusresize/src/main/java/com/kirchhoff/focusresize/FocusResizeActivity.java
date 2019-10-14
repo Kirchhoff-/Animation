@@ -1,4 +1,4 @@
-package com.kirchhoff.animation.recycler.focusresize;
+package com.kirchhoff.focusresize;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,11 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.library.FocusResizeScrollListener;
-import com.kirchhoff.animation.R;
-
-/**
- * @author Kirchhoff-
- */
+import com.kirchhoff.focusresize.adapter.ResizeAdapter;
 
 public class FocusResizeActivity extends AppCompatActivity {
 

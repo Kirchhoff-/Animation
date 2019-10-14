@@ -1,12 +1,14 @@
 package com.kirchhoff.animation.recycler.vega;
 
-import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.kirchhoff.animation.R;
-import com.kirchhoff.animation.recycler.FootballTeamViewHolder;
-import com.kirchhoff.animation.recycler.ImageObject;
+import com.kirchhoff.focusresize.adapter.holder.FootballTeamViewHolder;
+import com.kirchhoff.focusresize.data.ImageObject;
 
 import java.util.ArrayList;
 import java.util.List;

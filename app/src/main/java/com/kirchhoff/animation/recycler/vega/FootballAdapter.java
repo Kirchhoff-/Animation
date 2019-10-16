@@ -50,9 +50,9 @@ public class FootballAdapter extends RecyclerView.Adapter<FootballTeamViewHolder
     @Override
     public void onBindViewHolder(FootballTeamViewHolder holder, int position) {
         ImageObject customObject = items.get(position);
-        holder.clubName.setText(customObject.getClubName());
-        holder.country.setText(customObject.getCountry());
-        holder.background.setBackgroundResource(customObject.getClubBackground());
+        holder.getClubName().setText(customObject.getClubName());
+        holder.getCountry().setText(customObject.getCountry());
+        holder.getBackground().setBackgroundResource(customObject.getClubBackground());
     }
 
     @Override

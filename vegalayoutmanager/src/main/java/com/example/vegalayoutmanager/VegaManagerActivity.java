@@ -1,4 +1,4 @@
-package com.kirchhoff.animation.recycler.vega;
+package com.example.vegalayoutmanager;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kirchhoff.animation.R;
+import com.example.vegalayoutmanager.adapter.FootballAdapter;
 import com.stone.vega.library.VegaLayoutManager;
 
 /**
@@ -24,7 +24,7 @@ public class VegaManagerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a_focus_resize);
+        setContentView(R.layout.a_vega_manager);
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 

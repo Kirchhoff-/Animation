@@ -28,13 +28,7 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
     implementation 'androidx.appcompat:appcompat:1.1.0'
-
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
-
-    // VegaLayoutManager
-    implementation 'com.stone.vega.library:VegaLayoutManager:1.0.6'
 
     implementation project(path: ':alerter')
     implementation project(path: ':loadingbutton')
@@ -44,6 +38,7 @@ dependencies {
     implementation project(path: ':scalinglayout')
     implementation project(path: ':expandablelayout')
     implementation project(path: ':focusresize')
+    implementation project(path: ':vegalayoutmanager')
 }
 
 // For resolve library conflict(dou navigation drawer)

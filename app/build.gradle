@@ -40,5 +40,6 @@ dependencies {
     implementation project(path: ':expandablelayout')
     implementation project(path: ':focusresize')
     implementation project(path: ':vegalayoutmanager')
+    implementation project(path: ':switcher')
 }
 

@@ -2,17 +2,18 @@ package com.kirchhoff.animation
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.example.TickerActivity
 import com.example.alerter.AlerterActivity
 import com.example.loadingbutton.LoadingButtonActivity
 import com.example.vegalayoutmanager.VegaManagerActivity
-import com.kirchhoff.focusresize.FocusResizeActivity
 import com.kirchhoff.expandablelayout.ExpandableLayoutActivity
+import com.kirchhoff.focusresize.FocusResizeActivity
 import com.kirchhoff.particle.ParticleActivity
 import com.kirchhoff.scalinglayout.ScalingMainActivity
 import com.kirchhoff.swipeback.SwipeBackLayoutActivity
+import com.kirchhoff.switcher.SwitcherActivity
 
 @Suppress("UNUSED_PARAMETER")
 class MainActivity : AppCompatActivity() {
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     fun expandableLayout(view: View) = startActivity(ExpandableLayoutActivity::class.java)
     fun vegaLayoutManager(view: View) = startActivity(VegaManagerActivity::class.java)
     fun scalingLayoutExample(view: View) = startActivity(ScalingMainActivity::class.java)
+    fun switcherActivity(view: View) = startActivity(SwitcherActivity::class.java)
 
     private fun startActivity(clazz: Class<*>) {
         startActivity(Intent(this, clazz))

@@ -1,0 +1,5 @@
+apply from: '../module.gradle'
+
+dependencies {
+    implementation 'com.bitvale:switcher:1.1.0'
+}

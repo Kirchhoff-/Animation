@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bitvale.switcher.SwitcherX
+        android:id="@+id/firstSwitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+    <com.bitvale.switcher.SwitcherX
+        android:id="@+id/secondSwitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:switcher_icon_color="@color/lime_50"
+        app:switcher_off_color="@color/lime_500"
+        app:switcher_on_color="@color/lime_900" />
+
+    <com.bitvale.switcher.SwitcherX
+        android:id="@+id/thirdSwitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:checked="false"
+        app:elevation="8dp"
+        app:switcher_icon_color="@color/green_50"
+        app:switcher_off_color="@color/green_500"
+        app:switcher_on_color="@color/green_900" />
+
+</LinearLayout>
